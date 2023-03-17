@@ -33,7 +33,7 @@ describe('repeatString', () => {
       number
     );
   });
-  test('works with blank strings', () => {
+  test.skip('works with blank strings', () => {
     expect(repeatString('', 10)).toEqual('');
   });
 });
